@@ -16,5 +16,7 @@
 
 ## 주의 사항
 
-- 꼭 Dockerfile과 k8s 폴더를 프로젝트에 포함시켜주세요.
+- 꼭 `Dockerfile`과 `k8s` 폴더를 프로젝트에 포함시켜주세요.
+  - 프로젝트의 루트 (`/`) 위치에 포함되게 해주세요.
 - k8s/deployment.yaml과 k8s/ingress.yaml 파일은 필히 확인하시기 바랍니다.
+- `main`브런치에 작성해주세요.
