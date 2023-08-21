@@ -66,6 +66,15 @@ spec:
 
 ```
 
+## 기본적인 명령어
+자주 질문 주시는 명령어 입니다. 더 다양한 명령어는 [Kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)을 참고해주세요.
+
+### log 보는 법
+1. `kubectl get pods`를 이용해서 pod의 이름을 봅니다. ( my-pod 라고 가정 )
+2. `kubectl logs -f my-pod`를 이용하면 실시간으로 pod의 로그를 볼 수 있습니다.
+
+### pod를 재시작 하는 법
+1. `kubectl rollout restart deployment/krampoline`을 이용하면 krampoline을 이름으로 가지는 deployment를 재시작합니다.
 
 
 ## 필요 사항
